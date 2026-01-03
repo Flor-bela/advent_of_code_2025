@@ -25,8 +25,6 @@ int	main(int argc, char **argv)
 	last->next = lst;
 	lst->prev  = last;
 
-	/* printf("head lst %d\n", lst->data);
-	printf("prev head lst %d\n", lst->prev->data); */
 	i = 50;
 	while (i > 0) //head of list needs to start at 50
 	{
